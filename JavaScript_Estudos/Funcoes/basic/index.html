@@ -1,0 +1,34 @@
+<script>
+    
+
+    //Var = Scopo Global
+    //LET e CONST = Scopoco local.
+
+    //Const = nao pode ser alterado. 
+
+    //Mesmo let e const, sendo escopo global, podemos acessar a variavel em outro bloco de codigo. Exemplo:
+
+    let number = 2;
+
+    {
+        number = 3;
+        console.log("Acessou a variavel number", number)
+    }
+
+    console.log("O valor de number fora do bloco e: ", number)
+    console.log(" O tipo de dado e: ", typeof number)
+
+
+    //Agrupamento de declaracoes
+
+    let isDog = false;
+    let age = 18;
+    let name = "thiago";
+
+    console.log(isDog,age,name);
+    //concatenando valores
+    console.log('O ' + name + ' tem ' + age + ' anos.')
+
+    //interpolando valores
+    console.log(`o ${name} tem ${age} anos. `)
+</script>
